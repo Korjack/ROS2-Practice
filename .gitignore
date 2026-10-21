@@ -1,0 +1,23 @@
+# colcon
+ws/build/
+ws/install/
+ws/log/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# 학습 결과물
+**/models/
+**/runs/
+**/tb_logs/
+*.zip
+*.pt
+*.pth
+
+# 데이터
+**/data/
+*.bag
+*.mcap
